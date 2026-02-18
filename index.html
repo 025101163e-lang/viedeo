@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juegos Para Dos</title>
+</head>
+<body style="text-align:center; font-family: Arial;">
+
+    <h1>🎮 Juegos Para Dos 🎮</h1>
+    <p>Haz clic para empezar el juego</p>
+
+    <button onclick="mostrarSorpresa()">Empezar</button>
+
+    <div id="sorpresa" style="display:none; margin-top:20px;">
+        <h2>😈 ¡Te asustaste! 😈</h2>
+        <p>Era una broma 😂</p>
+        <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif">
+    </div>
+
+    <script>
+        function mostrarSorpresa() {
+            document.getElementById("sorpresa").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
